@@ -1,4 +1,4 @@
-package com.yourname.life_addon.item;
+package org.mythic_goose_studios.forgeries.item;
 
 import net.minecraft.item.Item;
 

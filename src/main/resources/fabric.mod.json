@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "life-addon",
+	"id": "forgeries",
 	"version": "${version}",
-	"name": "Life Addon Template",
+	"name": "Forgeries",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"You!"
+		"Mythic Goose Studios"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/life-addon/icon.png",
+	"icon": "assets/forgeries/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.yourname.life_addon.LifeAddonTemplate"
+			"org.mythic_goose_studios.forgeries.Forgeries"
 		],
 		"client": [
-			"com.yourname.life_addon.LifeAddonTemplateClient"
+			"org.mythic_goose_studios.forgeries.ForgeriesClient"
 		],
 		"fabric-datagen": [
-			"com.yourname.life_addon.LifeAddonTemplateDataGenerator"
+			"org.mythic_goose_studios.forgeries.ForgeriesDataGenerator"
 		]
 	},
 	"mixins": [
-		"life-addon.mixins.json"
+      "forgeries.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

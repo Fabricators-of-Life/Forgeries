@@ -1,4 +1,4 @@
-package com.yourname.life_addon.mixin;
+package org.mythic_goose_studios.forgeries.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

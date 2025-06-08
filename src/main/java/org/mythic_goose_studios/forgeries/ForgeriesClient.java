@@ -1,8 +1,8 @@
-package com.yourname.life_addon;
+package org.mythic_goose_studios.forgeries;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class LifeAddonTemplateClient implements ClientModInitializer {
+public class ForgeriesClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

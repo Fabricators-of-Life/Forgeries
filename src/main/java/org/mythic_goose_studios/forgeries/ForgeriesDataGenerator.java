@@ -1,10 +1,10 @@
-package com.yourname.life_addon;
+package org.mythic_goose_studios.forgeries;
 
-import com.yourname.life_addon.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import org.mythic_goose_studios.forgeries.datagen.ModModelProvider;
 
-public class LifeAddonTemplateDataGenerator implements DataGeneratorEntrypoint {
+public class ForgeriesDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();

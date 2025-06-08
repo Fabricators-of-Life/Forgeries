@@ -1,4 +1,4 @@
-package com.yourname.life_addon.block;
+package org.mythic_goose_studios.forgeries.block;
 
 import net.minecraft.block.Block;
 
